@@ -10,6 +10,7 @@ h1{
     font-weight: 600;
     font-size: 40px;
     font-style: italic;
+    background-image: linear-gradient(to right, rgb(209, 135, 147), rgb(79, 221, 186));
 }
 
 
@@ -64,6 +65,7 @@ footer{
     bottom: 0;
     width: 100%;
     display: inline-block;
+
     }
 
 i{
@@ -112,9 +114,20 @@ i{
     }
 }
 
+.animacion{
+    
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
 
-
-
+.iconos:hover{
+    transform: translate(10px, 15px);
+}
 
 
 
