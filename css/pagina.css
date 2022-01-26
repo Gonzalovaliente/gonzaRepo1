@@ -97,7 +97,7 @@ i{
 }
 
 @media only screen and (max-width: 400px){
-    .menuComputadora{
+    .justify-content-end{
         display: none;
     }
 
