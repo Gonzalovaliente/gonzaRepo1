@@ -64,9 +64,7 @@ i {
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 10%, repeat(3, 30%);
-  grid-template-areas: "uno dos tres"
- "uno dos tres"
- "uno dos tres"; }
+  grid-template-areas: "uno dos tres" "uno dos tres" "uno dos tres"; }
 
 #imgUno {
   grid-area: uno; }
