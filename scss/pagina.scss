@@ -1,10 +1,11 @@
+$colorBody: white
 
 body{
     background:{
-        image: url("../img/studiobeauty.jpeg");
-        repeat: repeat;
+        background-image: url("../img/studiobeauty.jpeg");
+        background-repeat: repeat;
         size: contain;
-        color: white;
+        color: $colorBody;
     }
     
 }
@@ -23,7 +24,7 @@ li{
     list-style-type: none;
     padding: 10px;
 
-     a{
+      a{
         text-decoration: none;
         color: black;
     }
