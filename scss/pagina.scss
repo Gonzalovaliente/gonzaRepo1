@@ -1,12 +1,13 @@
-$colorBody: white
+
 
 body{
     background{
         background-image: url("../img/studiobeauty.jpeg");
         background-repeat: repeat;
         size: contain;
-        color: $colorBody;
-    }
+        color: white;
+        }
+    
     
 }
 
@@ -145,8 +146,9 @@ i{
     font-style: italic;
     background-image: linear-gradient(to right, rgb(209, 135, 147), rgb(79, 221, 186));
 }
-}
 
-.servicios{
-    background-color: blue;
+
+#nosotras{ 
+    font-weight: 500;
+    background-color: blue ;
 }
